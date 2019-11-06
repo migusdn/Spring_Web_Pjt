@@ -26,6 +26,9 @@
 	</c:forEach>
 	<tr>
 	</tr>
-</table>
+	
+	
+
+</table> 
 </body>
 </html>
