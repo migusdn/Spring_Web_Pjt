@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Spring_Web_Pjt" target="1.6" />
+      <module name="Spring_Web_Pjt" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -1,16 +1,12 @@
 package com.app.app.Controller;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.Map;
-
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
 import org.apache.ibatis.session.SqlSession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,18 +15,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-
 import com.app.app.Dao.*;
 import com.app.app.Dto.*;
-
-import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import org.json.simple.JSONObject;
-
-
-
 
 @Controller
 public class AppController {
@@ -84,23 +72,6 @@ public class AppController {
 			System.out.println("null");
 			return "0";
 		}
-		
-		
-		
-		
-		
-		//JSONParser parser = new JSONParser(); //–JSON Parser 생성
-	    //JSONObject jsonObj = (JSONObject)parser.parse(paramData); //– 넘어온 문자열을 JSON 객체로 변환
-		//JSON데이값을 스트링 객체로 저장
-		/*
-		 * String Signupid = jsonObj.get("id").toString(); String Signuppassword =
-		 * jsonObj.get("pass").toString(); String Signupphone =
-		 * jsonObj.get("cellPhone").toString(); String Signupname =
-		 * jsonObj.get("name").toString(); String Signupmail =
-		 * jsonObj.get("mail").toString(); String Signupgender =
-		 * jsonObj.get("gender").toString(); String SignupbirthDate =
-		 * jsonObj.get("birthDate").toString();
-		 */
 	}
 	@ResponseBody
 	@RequestMapping("/LoginAct")
