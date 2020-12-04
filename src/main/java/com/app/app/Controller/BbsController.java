@@ -58,12 +58,10 @@ public class BbsController {
 	@RequestMapping("/WriteAct")
 	public String WriteAct(HttpSession session, HttpServletRequest request) throws UnsupportedEncodingException {
 		request.setCharacterEncoding("utf-8");
+		BbsDto BDto = new BbsDto(request.getParameter("bbs_title"), request.getParameter("bbs_content"), request.getParameter("user_id"));
 		Map map = new HashMap();
-		map.put("bbs_title", request.getParameter("bbs_title"));
-		map.put("bbs_content", request.getParameter("bbs_content"));
-		map.put("author", session.getAttribute("user_id"));
 		BDao dao = sqlSession.getMapper(BDao.class);
-		dao.Write(map);
+		dao.Write(BDto);
 		return "index";
 	}
 	

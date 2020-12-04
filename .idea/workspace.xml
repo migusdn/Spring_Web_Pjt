@@ -27,30 +27,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a3da46-0471-41de-bc16-b89cb717cefa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="e8a3da46-0471-41de-bc16-b89cb717cefa" name="Default Changelist" comment="intellij 에서 build 가능하게 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring_Web_Pjt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_Web_Pjt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/app/app/Controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/app/Controller/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/app/Controller/AppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/app/Controller/AppController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/app/Controller/BbsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/app/Controller/BbsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/app/Dao/BDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/app/Dao/BDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/app/Dao/BbsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/app/Dao/BbsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/app/Dao/UDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/app/Dao/UDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/app/Dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/app/Dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/app/Dto/BbsDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/app/Dto/BbsDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/app/Dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/app/Dto/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.app/app/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.app/app/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/app/Controller/BbsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/app/Controller/BbsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/app/Dao/BDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/app/Dao/BDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/app/Dao/BbsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/app/Dao/BbsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/app/Dto/BbsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/app/Dto/BbsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/app/mapper/BDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/app/mapper/BDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +87,10 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.59">
+    <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="Tomcat 8.5.59" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.59" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Spring_Web_Pjt_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -177,6 +164,11 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests#1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -193,8 +185,17 @@
       <workItem from="1606872127343" duration="2244000" />
       <workItem from="1606881999147" duration="19000" />
       <workItem from="1606882057414" duration="7152000" />
-      <workItem from="1606963873338" duration="1236000" />
+      <workItem from="1606963873338" duration="1709000" />
+      <workItem from="1606979571611" duration="2506000" />
     </task>
+    <task id="LOCAL-00001" summary="intellij 에서 build 가능하게 수정">
+      <created>1606973231468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606973231468</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +212,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="intellij 에서 build 가능하게 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="intellij 에서 build 가능하게 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

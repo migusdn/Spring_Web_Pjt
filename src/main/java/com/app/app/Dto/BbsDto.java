@@ -6,6 +6,11 @@ public class BbsDto {
 	private String bbs_content;
 	private String author;
 	private String date;
+	public BbsDto(String bbs_title, String bbs_content, String author){
+		this.bbs_title = bbs_title;
+		this.bbs_content = bbs_content;
+		this.author = author;
+	}
 	public String getBbs_id() {
 		return bbs_id;
 	}

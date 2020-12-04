@@ -5,7 +5,7 @@
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.app.app.Dao.BDao">
 
-	<insert parameterType="Map" id="Write">
+	<insert parameterType="com.app.app.Dto.BbsDto" id="Write">
 	INSERT INTO
 		BBS (bbs_title, bbs_content, author)
 		VALUES(#{bbs_title}, #{bbs_content}, #{author}) 

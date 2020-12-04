@@ -30,7 +30,7 @@ public class AppController {
 	
 	@RequestMapping("/")
 	public String index(Model model, HttpSession session, HttpServletRequest request) {
-		System.out.println(session.getAttribute("user_id"));
+		logger.info(session.getAttribute("user_id").toString());
 		return "index";
 	}
 	@RequestMapping("/Register")
@@ -53,7 +53,7 @@ public class AppController {
         map.put("password",request.getParameter("password").trim());
         map.put("nickname",request.getParameter("nickname").trim());
         map.put("name", request.getParameter("name").trim());
-		
+
 		dao.Register(map);
 		return "OK";
 	}
@@ -112,4 +112,5 @@ public class AppController {
 		str+="</script>";
 		return str;
 	}
+
 }

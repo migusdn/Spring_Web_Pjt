@@ -8,7 +8,7 @@ import com.app.app.Dto.BbsDto;
 public class BbsDao implements BDao{
 
 	@Override
-	public void Write(Map map) {
+	public void Write(BbsDto BDto) {
 	}
 
 	@Override
