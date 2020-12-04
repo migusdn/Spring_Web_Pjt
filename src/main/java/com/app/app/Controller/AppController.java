@@ -30,7 +30,7 @@ public class AppController {
 	
 	@RequestMapping("/")
 	public String index(Model model, HttpSession session, HttpServletRequest request) {
-		logger.info(session.getAttribute("user_id").toString());
+		//logger.info(session.getAttribute("user_id").toString());
 		return "index";
 	}
 	@RequestMapping("/Register")

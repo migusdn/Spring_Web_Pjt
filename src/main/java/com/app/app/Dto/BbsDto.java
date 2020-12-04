@@ -6,6 +6,9 @@ public class BbsDto {
 	private String bbs_content;
 	private String author;
 	private String date;
+	public BbsDto(){
+
+	}
 	public BbsDto(String bbs_title, String bbs_content, String author){
 		this.bbs_title = bbs_title;
 		this.bbs_content = bbs_content;

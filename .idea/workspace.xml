@@ -27,14 +27,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a3da46-0471-41de-bc16-b89cb717cefa" name="Default Changelist" comment="intellij 에서 build 가능하게 수정">
+    <list default="true" id="e8a3da46-0471-41de-bc16-b89cb717cefa" name="Default Changelist" comment="게시글 작성 리펙터링">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/app/app/Controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/app/Controller/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/app/Controller/BbsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/app/Controller/BbsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/app/Dao/BDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/app/Dao/BDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/app/Dao/BbsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/app/Dao/BbsDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/app/app/Dto/BbsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/app/Dto/BbsDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/app/mapper/BDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/app/mapper/BDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/app/mapper/BDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/app/mapper/UDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/mapper-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/mapper-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/app/Controller/AppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/app/Controller/AppController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/app/Controller/BbsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/app/Controller/BbsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/app/Dao/BDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/app/Dao/BDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/app/Dao/BbsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/app/Dao/BbsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/app/Dto/BbsDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/app/Dto/BbsDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/app/mapper/BDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/app/mapper/UDao.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +90,8 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean install" />
       <command value="mvn clean" />
+      <command value="mvn clean install" />
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.59">
@@ -186,7 +193,8 @@
       <workItem from="1606881999147" duration="19000" />
       <workItem from="1606882057414" duration="7152000" />
       <workItem from="1606963873338" duration="1709000" />
-      <workItem from="1606979571611" duration="2506000" />
+      <workItem from="1606979571611" duration="2721000" />
+      <workItem from="1607051884626" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="intellij 에서 build 가능하게 수정">
       <created>1606973231468</created>
@@ -195,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606973231468</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="게시글 작성 리펙터링">
+      <created>1607051742079</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607051742079</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +230,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intellij 에서 build 가능하게 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="intellij 에서 build 가능하게 수정" />
+    <MESSAGE value="게시글 작성 리펙터링" />
+    <option name="LAST_COMMIT_MESSAGE" value="게시글 작성 리펙터링" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
