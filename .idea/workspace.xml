@@ -27,8 +27,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a3da46-0471-41de-bc16-b89cb717cefa" name="Default Changelist" comment="mybatis resources 로 이동">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e8a3da46-0471-41de-bc16-b89cb717cefa" name="Default Changelist" comment="gitignore 추가">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +194,7 @@
       <workItem from="1606963873338" duration="1709000" />
       <workItem from="1606979571611" duration="2721000" />
       <workItem from="1607051884626" duration="979000" />
-      <workItem from="1607057984262" duration="441000" />
+      <workItem from="1607057984262" duration="768000" />
     </task>
     <task id="LOCAL-00001" summary="intellij 에서 build 가능하게 수정">
       <created>1606973231468</created>
@@ -217,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607057942661</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="gitignore 추가">
+      <created>1607071274542</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607071274542</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +246,8 @@
     <MESSAGE value="intellij 에서 build 가능하게 수정" />
     <MESSAGE value="게시글 작성 리펙터링" />
     <MESSAGE value="mybatis resources 로 이동" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis resources 로 이동" />
+    <MESSAGE value="gitignore 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
